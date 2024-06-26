@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.orderproduct.OrderProductFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/form_background"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            >
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:orientation="vertical"
+                >
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.17"
+                        android:text="Barcode"
+                        android:layout_marginLeft="4dp"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        />
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/edit_order_product_barcode"
+                        style="@style/EditTextViewComponent"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:textSize="16sp"
+                        />
+                    <ImageView
+                        android:id="@+id/img_order_product_camera_scan_barcode"
+                        android:layout_width="0dp"
+                        android:layout_height="35dp"
+                        android:layout_weight="0.1"
+                        android:src="@drawable/barcode_icon_2_png"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_order_product_ok"
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:text="@string/ok"
+                        android:background="@drawable/button_background"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <!--androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            >
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:orientation="vertical"
+                >
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:orientation="horizontal"
+                            >
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Barcode"
+                                android:textSize="16sp"
+                                android:background="@color/blue_200"
+                                android:padding="4dp"
+                                android:layout_margin="1dp"
+                                />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:text="Item Name"
+                                android:textSize="16sp"
+                                android:background="@color/blue_200"
+                                android:padding="4dp"
+                                android:layout_margin="1dp"
+                                />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:text="Design"
+                                android:textSize="16sp"
+                                android:background="@color/blue_200"
+                                android:padding="4dp"
+                                android:layout_margin="1dp"
+                                />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:text="Color"
+                                android:textSize="16sp"
+                                android:background="@color/blue_200"
+                                android:padding="4dp"
+                                android:layout_margin="1dp"
+                                />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="Size"
+                                android:textSize="16sp"
+                                android:background="@color/blue_200"
+                                android:padding="4dp"
+                                android:layout_margin="1dp"
+                                />
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycle_order_product_lists"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            tools:listitem="@layout/row_amount_bill" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </HorizontalScrollView>
+
+                <ImageView
+                    android:id="@+id/button_order_product_add"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/add_button"
+                    android:layout_gravity="right"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            >
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Sr.No."
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Barcode"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Style No."
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Color"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="468dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:gravity="center|center_horizontal"
+                            android:text="Size"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Total"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Mrp"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="140dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="Gross Amount"
+                            android:textSize="16sp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <Space
+                            android:layout_width="490dp"
+                            android:layout_height="30dp"/>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="S"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="M"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="L"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="XL"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="2XL"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="3XL"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="4XL"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="5XL"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/blue_200"
+                            android:padding="4dp"
+                            android:text="6XL"
+                            android:textSize="16sp" />
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycle_order_product_bill_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@layout/row_amount_bill" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/blue_200"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:layout_width="800dp"
+                                android:layout_height="30dp"
+                                android:editable="false"
+                                android:clickable="false"
+                                android:background="@color/white"/>
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/text_order_product_list_total_qty"
+                                android:layout_width="155dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dp"
+                                android:background="@color/light_total_amt"
+                                android:padding="4dp"
+                                android:text=" All Total"
+                                android:textSize="16sp" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/text_order_product_total"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dp"
+                                android:background="@color/light_total_amt"
+                                android:padding="4dp"
+                                android:text="2000.00"
+                                android:textSize="16sp" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/text_order_product_mrp_total"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dp"
+                                android:background="@color/light_total_amt"
+                                android:padding="4dp"
+                                android:text="20000.00"
+                                android:textSize="16sp" />
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/text_order_product_gross_total_amt"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="1dp"
+                                android:background="@color/light_total_amt"
+                                android:padding="4dp"
+                                android:text="20000.00"
+                                android:textSize="16sp" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </HorizontalScrollView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            >
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_order_product_list_cancel"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/button_background"
+                        android:text="Cancel"
+                        android:textColor="@color/white" />
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="40dp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_order_product_list_save"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/button_background"
+                        android:text="Save"
+                        android:textColor="@color/white" />
+
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="40dp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_order_product_list_preview"
+                        android:layout_width="50dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="0.3"
+                        android:background="@drawable/button_background"
+                        android:text="Preview"
+                        android:textColor="@color/white" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+

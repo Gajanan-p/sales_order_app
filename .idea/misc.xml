@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/activity_catalog_item_details.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/fragment_catalog.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/fragment_dynamic_server_url.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/fragment_panding_order.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/order_product_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/registration_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidBackupProject/SalesOrderApplicationBackup/SalesOrderApplication/app/src/main/res/layout/saleorder_fragment.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/WarehouseManegment/WarehouseManegment/app/src/main/res/layout/activity_camera_scanner.xml" value="0.10260416666666666" />
+        <entry key="..\:/AndroidStudioProjects/WarehouseManegment/WarehouseManegment/app/src/main/res/layout/barcode_capture.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/WarehouseManegment/WarehouseManegment/app/src/main/res/layout/print_tag_fragment.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/WarehouseManegment/WarehouseManegment/app/src/main/res/menu/activity_main_drawer.xml" value="0.1765625" />
+        <entry key="..\:/AndroidStudioProjects/WarehouseManegment/WarehouseManegment/app/src/main/res/menu/main.xml" value="0.1765625" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/drawable/barcode_edit_background.xml" value="0.1285" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/drawable/edit_text_background.xml" value="0.1305" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/drawable/form_background.xml" value="0.1305" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1305" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/drawable/ic_menu_camera.xml" value="0.121" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/activity_catalog_item_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_account_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_broker_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_change_company.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_custom_change_size.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_filter_item_group.xml" value="0.49" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_filter_item_subgroup.xml" value="0.15" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_filter_style_by.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_price_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_sale_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_station_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/dialog_transporter_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_catalog.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_design_wise_filter.xml" value="0.25" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_dynamic_server_url.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_log_out.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_order_booking.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/fragment_panding_order.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/login_fragment.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/order_product_fragment.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/registration_fragment.xml" value="0.2422145328719723" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_account_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_amount_bill.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_broker_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_catalog_list.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_category.xml" value="0.15" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_change_company.xml" value="0.203125" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_custom_change_size.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_dashbord_catelog_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_dialod_gender.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_discount.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_filter_item_group_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_filter_item_subgroup_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_filter_style_list.xml" value="0.13754889178617993" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_gender_layout.xml" value="0.22" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_price_list.xml" value="0.18" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_product_color_heading_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_product_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_sale_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_station_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/row_transporter_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/layout/saleorder_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/menu/main.xml" value="0.18" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1305" />
+        <entry key="..\:/SalesOrderApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1305" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/drawable/dialog_background.xml" value="0.1095" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/drawable/ic_save_24.xml" value="0.11" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/drawable/row_background.xml" value="0.1225" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/activity_camera_scanner.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/activity_main.xml" value="0.12222222222222222" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/app_bar_main.xml" value="0.15462962962962962" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/barcode_capture.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/check_stock_fragment.xml" value="0.16111111111111112" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/content_main.xml" value="0.1425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/create_grn_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_account_type.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_adjustment_type.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_damage_reason.xml" value="0.15092592592592594" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_general_remark.xml" value="0.1648148148148148" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_progress_layout.xml" value="0.12222222222222222" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_rate_cate_list.xml" value="0.1111111111111111" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_save_stock_quantity.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_update_reduced_barcode_rate.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_warehouse.xml" value="0.1111111111111111" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/dialog_zebra_printer_address.xml" value="0.16018518518518518" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/fragment_general.xml" value="0.18" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/fragment_logout.xml" value="0.16296296296296298" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/fragment_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/home_fragment.xml" value="0.14537037037037037" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/manage_grn_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/nav_header_main.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/pick_held_grn_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/pick_held_stock_correction_fragment.xml" value="0.1648148148148148" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/pick_held_stock_transfer_fragment.xml" value="0.15" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/print_reduced_barcode_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/print_tag_fragment.xml" value="0.28840579710144926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/reduce_barcode_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_dialog_adjustment_type.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_dialog_damage_reason.xml" value="0.15092592592592594" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_dialog_rate_cat.xml" value="0.1111111111111111" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_dialog_warehouse.xml" value="0.1111111111111111" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_general_list.xml" value="0.33" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_general_remark.xml" value="0.1648148148148148" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_grn_with_purchase_order_list.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_held_grn_list.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_held_stock_correction_list.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_print_price_tag_list.xml" value="0.16018518518518518" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_save_reduced_barcode_list.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/row_save_stock_transfer_list.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/save_grn_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/save_purchase_order_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/save_reduced_barcode_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/save_stock_correction_fragment.xml" value="0.1648148148148148" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/save_stock_transfer_fragment.xml" value="0.16111111111111112" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/stock_correction_fragment.xml" value="0.18425925925925926" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/layout/user_agreement_alert_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/menu/activity_main_drawer.xml" value="0.20102564102564102" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/WarehouseManegment/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

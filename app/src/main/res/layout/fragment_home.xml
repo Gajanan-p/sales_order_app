@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="8dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="6dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Today's Total Order"
+                    android:textSize="18sp"
+                    android:gravity="center|center_horizontal"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_home_today_total_order"
+                    style="@style/EditTextViewComponent"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="00.00"
+                    android:textColor="@color/blue_200"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Monthly Total Order"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_home_monthly_total_order"
+                    style="@style/EditTextViewComponent"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="00.00"
+                    android:textColor="@color/blue_200"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="Total Orders"
+                    android:gravity="center|center_horizontal"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_home_total_order"
+                    style="@style/EditTextViewComponent"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="00.00"
+                    android:textColor="@color/blue_200"
+                    android:textSize="18sp"
+                    android:gravity="center|center_horizontal"
+                    android:textStyle="bold"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="50dp"
+        android:background="@color/blue"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:elevation="6dp"
+        >
+        <ImageView
+            android:id="@+id/img_add_registration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_add_24"
+            android:scaleType="center"
+            android:background="@color/blue"/>
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_home_next_registration"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:text="Registration"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_home_next_sale_order"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:text="Sale Order"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_home_next_order_product"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="50dp"-->
+<!--        android:text="Order Product"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:background="@drawable/button_background"-->
+<!--        />-->
+
+
+</RelativeLayout>

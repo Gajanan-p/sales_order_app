@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ssinfomate.salesorder.ui.home.HomeFragment"
+        android:label="@string/nav_menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_bottom_nav_pendingOrder"
+            app:destination="@id/bottom_nav_pendingOrder" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_registration"
+            app:destination="@id/nav_registration" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.ssinfomate.salesorder.ui.userlogin.LoginFragment"
+        android:label="@string/login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_nav_login_to_nav_home"
+            app:destination="@id/nav_home" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.ssinfomate.salesorder.ui.customerrregistration.RegistrationFragment"
+        android:label="@string/registration_fragment"
+        tools:layout="@layout/registration_fragment" />
+    <fragment
+        android:id="@+id/nav_orderProduct"
+        android:name="com.ssinfomate.salesorder.ui.orderproduct.OrderProductFragment"
+        android:label="@string/product_order"
+        tools:layout="@layout/order_product_fragment" />
+    <fragment
+        android:id="@+id/bottom_nav_groupOrder"
+        android:name="com.ssinfomate.salesorder.ui.saleorder.SaleOrderFragment"
+        android:label="@string/sale_order"
+        tools:layout="@layout/saleorder_fragment" />
+
+    <fragment
+        android:id="@+id/nav_dynamicServerUrl"
+        android:name="com.ssinfomate.salesorder.ui.serverurl.DynamicServerUrlFragment"
+        android:label="@string/nav_menu_server_fragment"
+        tools:layout="@layout/fragment_dynamic_server_url" />
+    <fragment
+        android:id="@+id/bottom_nav_catalog"
+        android:name="com.ssinfomate.salesorder.ui.catalog.CatalogFragment"
+        android:label="@string/catalog_Fragment"
+        tools:layout="@layout/fragment_catalog" />
+    <fragment
+        android:id="@+id/nav_designWiseFilter"
+        android:name="com.ssinfomate.salesorder.ui.filters.DesignWiseFilterFragment"
+        android:label="@string/tittle_nav_design_wise_filter"
+        tools:layout="@layout/fragment_design_wise_filter" />
+    <fragment
+        android:id="@+id/bottom_nav_pendingOrder"
+        android:name="com.ssinfomate.salesorder.ui.dashboard.PendingOrderFragment"
+        android:label="@string/tittle_nav_pending_order"
+        tools:layout="@layout/fragment_panding_order" />
+    <fragment
+        android:id="@+id/nav_logOut"
+        android:name="com.ssinfomate.salesorder.ui.userlogin.LogOutFragment"
+        android:label="@string/nav_menu_logout"
+        tools:layout="@layout/fragment_log_out" />
+
+</navigation>

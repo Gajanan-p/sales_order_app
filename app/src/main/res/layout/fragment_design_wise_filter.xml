@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.filters.DesignWiseFilterFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/BarcodeEditTextViewComponent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:hint="   Sort by"
+                    android:paddingLeft="120dp"
+                    android:drawableRight="@drawable/spinner_bg"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            >
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Desing Price"
+                    android:fontFamily="@font/bariol_bold"
+                    android:textSize="18sp"
+                    />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Minimum"
+                            android:gravity="center|center_vertical"
+                            android:textSize="16sp"
+                            android:layout_gravity="start"
+                            android:textColor="@color/black"/>
+                        <Space
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"/>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Maximum"
+                            android:gravity="center|center_vertical"
+                            android:textSize="16sp"
+                            android:layout_gravity="right"
+                            android:textColor="@color/black"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        >
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            style="@style/EditTextViewComponent"
+                            android:text="0"
+                            android:gravity="center|center_vertical"
+                            android:textSize="16sp"
+                            android:layout_gravity="start"
+                            android:textColor="@color/black"/>
+                        <Space
+                            android:layout_width="180dp"
+                            android:layout_height="wrap_content"/>
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            style="@style/EditTextViewComponent"
+                            android:text="2000"
+                            android:layout_marginLeft="250dp"
+                            android:gravity="center|center_vertical"
+                            android:textSize="16sp"
+                            android:layout_gravity="right"
+                            android:textColor="@color/black"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                    <com.google.android.material.slider.RangeSlider
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/BarcodeEditTextViewComponent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:hint="   Item Group by"
+                    android:paddingLeft="120dp"
+                    android:drawableRight="@drawable/spinner_bg"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/BarcodeEditTextViewComponent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:hint="   Item SubGroup by"
+                    android:paddingLeft="120dp"
+                    android:drawableRight="@drawable/spinner_bg"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView
+
+                    style="@style/BarcodeEditTextViewComponent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="16sp"
+                    android:hint="   Style by"
+                    android:paddingLeft="120dp"
+                    android:drawableRight="@drawable/spinner_bg"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            >
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="Clear All"
+                    />
+                <Space
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="Apply Filter"
+                    />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.core.widget.NestedScrollView>

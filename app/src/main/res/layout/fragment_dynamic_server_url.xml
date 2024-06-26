@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.serverurl.DynamicServerUrlFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dialog_text_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="4dp"
+                    android:gravity="center_horizontal"
+                    android:background="@color/teal_700"
+                    android:textColor="@color/white"
+                    android:text="Enter Zebra Printer MAC Address"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    />
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edit_dynamic_server_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    style="@style/EditTextViewComponent"
+                    />
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_dynamic_server_cancel"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:text="Cancel"
+                        android:background="@color/teal_700"
+                        android:textColor="@color/white"
+                        android:layout_margin="4dp"
+                        android:layout_height="40dp"/>
+                    <Space
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button_dynamic_server_ok"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.5"
+                        android:text="OK"
+                        android:background="@color/teal_700"
+                        android:layout_margin="4dp"
+                        android:textColor="@color/white"
+                        android:layout_height="40dp"/>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
